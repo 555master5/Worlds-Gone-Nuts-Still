@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://f8kcbqm2sbv"]
+
+[ext_resource type="Texture2D" uid="uid://dda0qsdmahun3" path="res://icon.svg" id="1_pvr81"]
+[ext_resource type="Script" path="res://spin_and_win.gd" id="2_pxw2x"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pvr81")
+script = ExtResource("2_pxw2x")
+
+[node name="Camera2D" type="Camera2D" parent="."]
